@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 230, 230);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border-radius: 100px;
+    border: 1px solid yellow;
+    padding: 5px;
+    color: rgb(163, 170, 170);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    background-position: 30px;
+}
+
+.inp:hover{
+    
+    background-color: aliceblue;
+}
+.sea{
+
+height: 20px;
+position:relative;
+/* background-color: aquamarine; */
+
+}
+.search-box{
+    position: absolute;
+    padding-right: 380px;
+    padding-top: 8px;
+    /* transform: translateY(-50%); */
+    /* animation: moveRight 2s infinite linear; */
+  }
+  .micicon{
+    height: 20px;
+    position: relative;
+    /* padding-bottom: 40px; */
+    /* align-items: center; */
+  }
+  .mic{
+    position: absolute;
+    padding-left:320px ;
+    padding-bottom: 50px;
+  
+  }
